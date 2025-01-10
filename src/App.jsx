@@ -1,9 +1,10 @@
 import React from 'react'
+import Hero from './components/custom/Hero'
 
 const App = () => {
   return (
     <div>
-      <button className='bg-blue-500'>test</button>
+      <Hero/>
     </div>
   )
 }
